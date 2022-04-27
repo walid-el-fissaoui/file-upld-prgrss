@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import 'uploaded';
+@import 'progress';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #6990f2;
+}
+
+.fupldp {
+  $self: &;
+  width: 430px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 5px;
+  #{$self}__form {
+    height: 167px;
+    display: flex;
+    margin: 30px 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 2px dashed #6990f2;
+    & :where(i,p) {
+      color: #6990f2;
+    }
+    & i {
+      font-size: 50px;
+    }
+    & p {
+      font-size: 16px;
+      margin-top: 15px;
+    }
+  }
+  ul {
+    list-style: none;
+    #{$self}__file {
+      background: #e9f0ff;
+      margin-bottom: 10px;
+      padding: 15px 20px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      i {
+        font-size: 22px;
+        color: #6990f2;
+      }
+    }
+    #{$self}__info {
+      span {
+        font-size: 14px;
+      }
+    }
+  }
+}

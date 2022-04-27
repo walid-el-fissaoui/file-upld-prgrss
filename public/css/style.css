@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+.fupldp .fupldp__uplded {
+  max-height: 150px;
+  overflow-y: scroll;
+}
+.fupldp .fupldp__uplded::-webkit-scrollbar {
+  width: 0px;
+}
+.fupldp .fupldp__uplded .fupldp__content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.fupldp .fupldp__uplded .fupldp__info {
+  display: flex;
+  margin-left: 15px;
+  flex-direction: column;
+}
+.fupldp .fupldp__uplded .fupldp__info i {
+  color: #6990f2;
+  font-size: 16px;
+}
+.fupldp .fupldp__uplded .fupldp__size {
+  font-size: 11px;
+  color: #404040;
+}
+
+.fupldp .fupldp__progress .fupldp__content {
+  width: 100%;
+  margin-left: 15px;
+}
+.fupldp .fupldp__progress .fupldp__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+.fupldp .fupldp__progress .fupldp__prgrss-bar {
+  height: 6px;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 4px;
+  border-radius: 30px;
+}
+.fupldp .fupldp__progress .fupldp__prgrss-bar .fupldp__prgrss {
+  height: 100%;
+  width: 50%;
+  border-radius: inherit;
+  background: #6990f2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #6990f2;
+}
+
+.fupldp {
+  width: 430px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 5px;
+}
+.fupldp .fupldp__form {
+  height: 167px;
+  display: flex;
+  margin: 30px 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 2px dashed #6990f2;
+}
+.fupldp .fupldp__form :where(i, p) {
+  color: #6990f2;
+}
+.fupldp .fupldp__form i {
+  font-size: 50px;
+}
+.fupldp .fupldp__form p {
+  font-size: 16px;
+  margin-top: 15px;
+}
+.fupldp ul {
+  list-style: none;
+}
+.fupldp ul .fupldp__file {
+  background: #e9f0ff;
+  margin-bottom: 10px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fupldp ul .fupldp__file i {
+  font-size: 22px;
+  color: #6990f2;
+}
+.fupldp ul .fupldp__info span {
+  font-size: 14px;
+}

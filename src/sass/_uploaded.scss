@@ -1,0 +1,28 @@
+.fupldp {
+  $self: &;
+  #{$self}__uplded {
+    max-height: 150px;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+      width: 0px;
+    }
+    #{$self}__content {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    #{$self}__info {
+      display: flex;
+      margin-left: 15px;
+      flex-direction: column;
+      i {
+        color: #6990f2;
+        font-size: 16px;
+      }
+    }
+    #{$self}__size {
+      font-size: 11px;
+      color: #404040;
+    }
+  }
+}

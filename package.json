@@ -1,0 +1,24 @@
+{
+  "name": "file-upld-prgrss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://walid-programming: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@github.com/walid-programming/file-upld-prgrss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/walid-programming/file-upld-prgrss/issues"
+  },
+  "homepage": "https://github.com/walid-programming/file-upld-prgrss#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.51.0"
+  }
+}

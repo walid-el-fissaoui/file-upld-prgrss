@@ -1,0 +1,28 @@
+.fupldp {
+  $self: &;
+  #{$self}__progress {
+    #{$self}__content {
+      width: 100%;
+      margin-left: 15px;
+    }
+    #{$self}__info{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 7px;
+    }
+    #{$self}__prgrss-bar {
+      height: 6px;
+      width: 100%;
+      background: #fff;
+      margin-bottom: 4px;
+      border-radius: 30px;
+      #{$self}__prgrss {
+        height: 100%;
+        width: 50%;
+        border-radius: inherit;
+        background: #6990f2;
+      }
+    }
+  }
+}

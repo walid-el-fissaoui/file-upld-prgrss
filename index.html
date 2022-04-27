@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Upload With Progress</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+  <div class="fupldp">
+    <form action="#" class="fupldp__form">
+      <input type="file" hidden class="fupldp__input-file">
+      <i class="bi bi-cloud-arrow-up-fill"></i>
+      <p>Browse file to upload</p>
+    </form>
+    <ul class="fupldp__progress">
+      <li class="fupldp__file">
+        <i class="bi bi-file-earmark-fill"></i>
+        <div class="fupldp__content">
+          <div class="fupldp__info">
+            <span class="fupldp__name">image_01.png • uploading</span>
+            <span class="fupldp__percent">50%</span>
+          </div>
+          <div class="fupldp__prgrss-bar">
+            <div class="fupldp__prgrss"></div>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <ul class="fupldp__uplded">
+      <li class="fupldp__file">
+        <i class="bi bi-file-earmark-fill"></i>
+        <div class="fupldp__content">
+          <div class="fupldp__info">
+            <span class="fupldp__name">image_01.png • uploaded</span>
+            <span class="fupldp__size">70 KB</span>
+          </div>
+          <i class="bi bi-check"></i>
+        </div>
+      </li>
+      <li class="fupldp__file">
+        <i class="bi bi-file-earmark-fill"></i>
+        <div class="fupldp__content">
+          <div class="fupldp__info">
+            <span class="fupldp__name">image_01.png • uploaded</span>
+            <span class="fupldp__size">70 KB</span>
+          </div>
+          <i class="bi bi-check"></i>
+        </div>
+      </li>
+      <li class="fupldp__file">
+        <i class="bi bi-file-earmark-fill"></i>
+        <div class="fupldp__content">
+          <div class="fupldp__info">
+            <span class="fupldp__name">image_01.png • uploaded</span>
+            <span class="fupldp__size">70 KB</span>
+          </div>
+          <i class="bi bi-check"></i>
+        </div>
+      </li>
+      <li class="fupldp__file">
+        <i class="bi bi-file-earmark-fill"></i>
+        <div class="fupldp__content">
+          <div class="fupldp__info">
+            <span class="fupldp__name">image_01.png • uploaded</span>
+            <span class="fupldp__size">70 KB</span>
+          </div>
+          <i class="bi bi-check"></i>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <script src="public/js/main.js"></script>
+</body>
+</html>
